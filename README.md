@@ -22,13 +22,18 @@ linux-bash-container-shared/
 ├── bash-scripts/              # Custom Bash utilities and automation tools
 │   └── hello_world.sh
 ├── docker-images/             # Dockerfiles and image setups
-│   └── ubuntu-dev/
-│       └── Dockerfile
+│   ├── ubuntu-dev/
+│   │   ├── Dockerfile
+│   │   └── README.md          # Documents setup for dev container for general scripting in Ubuntu
+│   ├── kali-dev/
+│   │   ├── Dockerfile
+│   │   └── README.md          # Documents kali-dev container, prepped for pen testing, reverse engineering, and cybersecurity labs using Kali Linux toolsets.
 ├── k8s-deployments/           # Kubernetes YAML manifests and Helm charts
 │   └── nginx-deployment.yaml
 ├── notes/                     # Markdown docs and quick-reference commands
 │   └── linux-permissions.md
 └── README.md                  # You're reading it!
+
 ```
 
 ---
